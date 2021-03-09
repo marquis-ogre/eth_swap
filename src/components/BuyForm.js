@@ -31,7 +31,7 @@ class BuyForm extends Component {
             onChange={(event) => {
               const etherAmount = this.input.value.toString()
               this.setState({
-                output: etherAmount * 100
+                output: etherAmount * 3000
               })
             }}
             ref={(input) => { this.input = input }}
@@ -62,13 +62,13 @@ class BuyForm extends Component {
           <div className="input-group-append">
             <div className="input-group-text">
               <img src={tokenLogo} height='32' alt=""/>
-              &nbsp; DApp
+              &nbsp; PTN
             </div>
           </div>
         </div>
         <div className="mb-5">
           <span className="float-left text-muted">Exchange Rate</span>
-          <span className="float-right text-muted">1 ETH = 100 DApp</span>
+          <span className="float-right text-muted">1 ETH = 3000 PTN</span>
         </div>
         <button type="submit" className="btn btn-primary btn-block btn-lg">SWAP!</button>
       </form>
