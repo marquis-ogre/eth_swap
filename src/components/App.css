@@ -1,1 +1,39 @@
 /* Styles go here */
+body {
+    background-color: #000525;
+    background-image: url('../images/GridMainBG.png');
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-dark {
+    background-color: #2E2F7E !important;
+}
+.navbar-brand {
+    padding-left: 250px;
+}
+
+small, .small {
+    font-size: 100%;
+    color: whitesmoke;
+}
+
+.p-0 {
+    height: 70px;
+}
+
+.mt-3, .my-3 {
+    margin-top: 2rem !important;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2E2F7E;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+  }

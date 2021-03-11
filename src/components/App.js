@@ -5,6 +5,7 @@ import EthSwap from '../abis/EthSwap.json'
 import Navbar from './Navbar'
 import Main from './Main'
 import './App.css'
+import Footer from './Footer'
 
 class App extends Component {
 
@@ -108,19 +109,20 @@ class App extends Component {
             <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '600px' }}>
               <div className="content mr-auto ml-auto">
                 <a
-                  href="#"
+                  href="https://pythonex.net"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                 </a>
 
                 {content}
-
+                <Footer></Footer>
               </div>
             </main>
           </div>
         </div>
       </div>
+      
     );
   }
 }
