@@ -10,9 +10,6 @@ body {
 .bg-dark {
     background-color: #2E2F7E !important;
 }
-.navbar-brand {
-    padding-left: 250px;
-}
 
 small, .small {
     font-size: 100%;
